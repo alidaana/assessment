@@ -1,0 +1,13 @@
+.sub {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: white;
+  height: 45%;
+  text-align: right;
+  padding: 10px;
+}
+.sub:hover {
+  border: solid #6041bc;
+}

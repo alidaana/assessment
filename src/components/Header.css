@@ -1,0 +1,10 @@
+.header {
+  padding: 10px;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: none;
+  width: 100%;
+  background-color: white;
+}

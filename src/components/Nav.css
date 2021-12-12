@@ -1,0 +1,87 @@
+.sidenav {
+  height: 80%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 66px;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border-radius: 0 10px 10px 0;
+}
+
+.close {
+  width: 100%;
+  background-color: #6041bc;
+}
+
+.open {
+  position: absolute;
+  left: 0px;
+  top: 69px;
+
+  font-size: 40px;
+  width: 70px;
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+  background-color: #6041bc;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+.fa-icon1:hover {
+  color: #818181;
+}
+.fa-icon1 {
+  font-size: 40px;
+  color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+
+  font-size: 36px;
+
+  width: 100%;
+  background-color: #6041bc;
+  text-align: right;
+  border-radius: 0 10px 10px 0;
+  height: 7%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.xbtn {
+  flex: 1;
+  text-align: left;
+  padding-left: 20px;
+}
+.xmsg {
+  flex: 1;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-right: 10px;
+  gap: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
